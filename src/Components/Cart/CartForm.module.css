@@ -1,0 +1,11 @@
+.cart-form{
+   
+}
+.cart-form input{
+    width:20%;
+    padding:1rem 1rem;
+    
+}
+.form-adress{
+    display:  flex;
+}

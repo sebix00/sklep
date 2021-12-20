@@ -1,0 +1,33 @@
+.customer-form{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    row-gap:2.25rem;
+    column-gap: 1.5rem;
+}
+.customer-title{
+    font-size: 1.8rem;
+    font-weight: normal;
+    margin-bottom: 1.5rem;
+}
+.firs-column{
+    grid-column: 1/2;
+}
+.second-column{
+    grid-column: 2/3;
+}
+.one-column{
+    grid-column: 1/-1;
+}
+.customer-form input{
+    padding:0.8rem 1.2rem;
+}
+.customer-form label{
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 9px;
+    color:rgba(0,0,0,.5)
+}
+.customer-form div {
+    display: flex;
+    flex-direction: column;
+}

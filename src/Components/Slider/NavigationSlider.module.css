@@ -1,0 +1,23 @@
+.nav-list {
+  display: flex;
+  list-style: none;
+  margin-bottom: 2.5rem;
+}
+.nav-item {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  color:rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  margin-right: 1rem;
+  padding-bottom: 1rem;
+  letter-spacing: 1px;
+}
+.nav-item:hover {
+  cursor: pointer;
+}
+.nav-item__active {
+
+  border-bottom: 1px solid rgb(0, 0, 0);
+  color:black;
+}

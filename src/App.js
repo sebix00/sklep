@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/Header/Header";
+import Hero from "./Components/Hero/Hero";
+import Clothes from "./Components/Clothes/Clothes";
+import CartProvider from "./store/CartProvider";
+import OrderProvider from "./store/OrderProvider";
+
+import CartButtonProvider from "./store/CartButtonProvider";
 
 function App() {
+  const h = <h2>Hello</h2>;
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <CartProvider>
+        <CartButtonProvider>
+            <OrderProvider>
+
+          <Header />
+          </OrderProvider>
+        </CartButtonProvider>
+
+        <main>
+          <Hero />
+        </main>
+        <Clothes />
+      </CartProvider>
+
+    </>
   );
 }
 

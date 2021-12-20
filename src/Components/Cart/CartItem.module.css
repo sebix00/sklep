@@ -1,0 +1,44 @@
+.item-img {
+  width: 8rem;
+  margin-bottom: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 2rem 4rem rgba(0,0,0,.3);
+}
+
+.list-item {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-information {
+  margin-left: 2rem;
+
+  display: flex;
+  font-size: 2rem;
+  font-weight: bold;
+  align-items: center;
+}
+.item-name {
+  font-size: 3rem;
+
+}
+.item-name::first-letter{
+    text-transform: uppercase;
+}
+.item-amount{
+    margin-left: 1rem;
+}
+.btn{
+    margin-left:2rem;
+    padding:1rem 2rem;
+    font-size: 1.6rem;
+    border:none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all .2s;
+    
+}
+.btn:hover{
+  transform: scale(1.05);
+}

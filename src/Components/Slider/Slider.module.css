@@ -1,0 +1,21 @@
+.slider-container{
+    height:100%;
+    width: 100%;
+    position:relative;
+    margin:auto;
+    overflow: hidden;
+    grid-row: 1/2;
+    padding:2rem 3.5rem;
+}
+.active {
+    display: inline-block;
+}
+.inactive{
+    display: none;
+}
+.forms{
+    height:100%;
+    width: 100%;
+    position:relative;
+    
+}
